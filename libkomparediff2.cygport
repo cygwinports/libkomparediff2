@@ -1,0 +1,12 @@
+inherit kde4
+
+NAME="libkomparediff2"
+VERSION=4.12.5
+RELEASE=1
+CATEGORY="Libs"
+SUMMARY="KDE4 file and string comparison library"
+
+PKG_NAMES="libkomparediff2_4 libkomparediff2-devel"
+libkomparediff2_4_CONTENTS="usr/bin/cygkomparediff2-4.dll usr/share/doc/"
+libkomparediff2_devel_REQUIRES="libkdecore-devel libQtCore4-devel libQtGui4-devel"
+libkomparediff2_devel_CONTENTS="usr/include/ usr/lib/"

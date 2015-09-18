@@ -1,12 +1,12 @@
-inherit kde4
+inherit kf5
 
 NAME="libkomparediff2"
-VERSION=14.12.3
+VERSION=15.04.3
 RELEASE=1
 CATEGORY="Libs"
 SUMMARY="KDE4 file and string comparison library"
 
-PKG_NAMES="libkomparediff2_4 libkomparediff2-devel"
-libkomparediff2_4_CONTENTS="usr/bin/cygkomparediff2-4.dll usr/share/doc/"
-libkomparediff2_devel_REQUIRES="libkdecore-devel libQtCore4-devel libQtGui4-devel"
+PKG_NAMES="libkomparediff2_5 libkomparediff2-devel"
+libkomparediff2_5_CONTENTS="usr/bin/cygkomparediff2-5.dll usr/share/doc/"
+libkomparediff2_devel_REQUIRES="libKF5Codecs-devel libKF5CoreAddons-devel libKF5I18n-devel libKF5KIO-devel libKF5XmlGui-devel libQt5Core-devel libQt5Gui-devel"
 libkomparediff2_devel_CONTENTS="usr/include/ usr/lib/"

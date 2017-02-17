@@ -1,10 +1,10 @@
 inherit kf5
 
 NAME="libkomparediff2"
-VERSION=15.04.3
+VERSION=16.08.3
 RELEASE=1
 CATEGORY="Libs"
-SUMMARY="KDE4 file and string comparison library"
+SUMMARY="KDE file and string comparison library"
 
 PKG_NAMES="libkomparediff2_5 libkomparediff2-devel"
 libkomparediff2_5_CONTENTS="usr/bin/cygkomparediff2-5.dll usr/share/doc/"
